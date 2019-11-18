@@ -1,0 +1,381 @@
+/*#mis {
+	background-image: url('missionbl.png');
+	height: ;
+	width: ;
+}
+#mis:hover{
+	background-image: url('missionred.png');
+}
+#abt {
+	background-image: url('aboutblk.png');
+	height: ;	width: ;
+}
+#abt:hover{
+	background-image: url('aboutred.png');
+}
+#sub {
+	background-image: url('submitblk.png');
+	height: ;
+	width: ;
+}
+#sub:hover{
+	background-image: url('submitred.png');
+}
+*/
+body{
+	background-color:#fff;
+}
+
+.logo {
+	border: none;
+	max-width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	display: block;
+
+}
+
+heading {
+	font-size: 25px;
+	color: #98ff98;
+	margin: 0;
+	margin-top:40px;
+	padding-bottom: 3rem;
+	width: 100%;
+	display: inline-block;
+	font-weight: 700;
+	letter-spacing: -.04em;
+	user-select: none;
+	line-height: .8;
+	text-align: center;
+	position: absolute;
+	font-family:purisa;
+}
+/* footer */
+#menu {
+	position: fixed;
+	bottom:0;
+}
+.table {
+	display: table; /*for centering purposes */
+	margin: 0 auto;
+	margin-top:500px;
+}
+
+}
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none
+}
+ul#horizontal-list li {
+	display: inline;
+}
+.clickable{
+	text-decoration: none;
+	font-family: monospace; 
+	color:black;
+	font-size:15px;
+}
+.clickable:hover{
+	color:Red;
+}
+.mirror {
+	text-decoration: none;
+	font-family:monospace;
+	color:black; 
+	font-style:italic;
+	font-weight:bold;
+}
+/*Top bar for navigation */
+.nav {
+	overflow: hidden;
+	left:0px;
+	background-image: linear-gradient(#005ab4,#005ab4,#0074e7);
+	position:fixed;
+	top:0;
+	width:150%;
+}
+.nav a {
+	float:left;
+	display:block;
+	color: #f2f2f2;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-style: monospace;
+}
+.nav x {
+	float:left;
+	display:block;
+	color: #f2f2f2;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-style: monospace;
+}
+.nav a:hover {
+	background-image: linear-gradient(0deg, #fff,#fff);
+	color:black;
+
+}
+.mynav {
+	overflow: hidden;
+	text-align: center;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left:50%;
+
+}
+.mynav a {
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 14px 16px;
+	font-style: monospace;
+}
+
+.mynav a:hover {
+	color: red;
+}
+/*----------Mission page start----------*/
+.statement {
+	color:black;
+	margin-top:70px;
+}
+.statement img {
+	width: 17%;
+	float:left;
+	padding:40px;
+}
+.slidecontainer {
+	border: none;
+	max-width: 50%;
+	margin-left:5px;
+	margin-right:auto;
+	margin-top:60px;
+}
+.missionvid {
+	padding-top: 80px;
+	padding-left: 30%;
+	padding-right: 50%;
+
+}
+.misstate {
+	margin-top:70px;
+	display: block;
+}
+.mistext {
+
+}
+/*----------Mission Page end----------*/
+/*----------About me page----------*/
+.meinfo {
+	color:black;
+	margin-top:70px;
+}
+.meinfo img {
+	width: 17%;
+	float:left;
+	padding:12px;
+}
+#piced {
+	width: auto;
+	height: auto;
+	display: block;
+	clear: left;
+}
+#piced:hover{
+	opacity: 0.5;
+}
+figure {
+	display:inline-block;
+}
+.meinfo {
+
+	line-height: 0.25px;
+	width: 100%;
+	display: block;
+}
+.cap{
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #737373;
+	visibility: visible;
+	opacity: 1;
+	font-size: .75rem;
+	font-style: italic;
+	text-align: left;
+	clear:left;
+	margin-left: 10px;
+}
+figure {
+	padding: 0.25px;
+}
+figcaption{
+	margin:10px 0 0 0;
+	text-align: left;
+}
+.me {
+	line-height: 20px;
+	clear: none;
+}
+/*slideshow
+.slideshow {
+	overflow: hidden;
+	height: 800px;
+	width:1200px;
+	margin-left:360px;
+	margin-top: 50px;
+}
+.mySlides {
+	display: none;
+}
+/*---- SLIDE ANIM ----
+@-webkit-keyframes slide_animation{
+	0% {left:0px;}
+	10% {left:0px;}
+	20% {left:1200px;}
+	30% {left:1200px;}
+	40% {left:2400px;}
+	50% {left:2400px;}
+	60% {left:1200px;}
+	70% {left:1200px;}
+	80% {left:0px;}
+	90% {left:0px;}
+	100% {left:0px;}
+}
+.mySlides{
+	width:3600px;
+	height: 800px;
+	margin:0 0 0 -2400px;
+	position:relative;
+	-webkit-animation-name:slide_animation;
+	-webkit-animation-duration:30s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+}
+.simage{
+	height: 800px;
+	width: 1200px;
+	position: relative;
+	float: left;
+
+}
+
+
+
+/*animate fade*/
+/*.fade {
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name:fade;
+	animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity:1;}
+}*/
+/*----------Alt Appearance for Home page----------*/
+.midnav {
+	overflow: hidden;
+	left:center;
+	position: fixed;
+	top:35;
+	text-decoration: none;
+}
+.midnav a {
+	float:left;
+	display: block;
+	color:;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font: monospace;
+}
+.midnav x {
+	float: left;
+	display: block;
+	color:;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-style:monospace;
+}
+.midnav a:hover {
+	color:black;
+}
+/*----------Alt Appearance End----------*/
+/*----------Start of submission page----------*/
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+	resize:vertical, horizontal;
+}
+label {
+	padding: 12px 12px 12px 0;
+	display:inline-block;
+}
+
+/*submit button stuffs*/
+input[type=submit] {
+	background-color:#aba2f6;
+	color:white;
+	padding:12px 20px;
+	cursor: pointer;
+	text-align:right;
+}
+input[type=submit]:hover {
+	box-shadow: 0 0 5px #b0e2ff;
+	background-color:#b2d8b2;
+;
+}
+.container {
+	border-radius:5px;
+	background color: white;
+	padding: 20px;
+	text-align: center;
+}
+.direct {
+	float:left;
+	width:25%;
+	margin-top: 6px;
+
+}
+.userenter {
+	float:left;
+	width: 75%;
+	margin-top: 6px;
+
+}
+.form:after {
+	content: "";
+	display:table;
+	clear:both;
+}
+/*for different devices*/
+@media screen and (max-width: 600px) {
+	.c1, .c2, input[type=submit]{
+		width: auto;
+		margin-top:0;
+	}
+}
+
+.simplecontact {
+	text-align: center;
+	display: block;
+}
+
